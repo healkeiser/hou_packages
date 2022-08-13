@@ -1,6 +1,9 @@
 <p align="left">
-  <a href="https://www.python.org">
-  <img src="https://img.shields.io/badge/-Houdini-211d1e?style=for-the-badge&logo=houdini" alt="Python"/></a>
+  <img src="https://img.shields.io/badge/-Houdini-631a00?style=for-the-badge&logo=houdini" alt="Houdini"/></a>
+<!--   <img src="https://img.shields.io/badge/-Maya-336379?style=for-the-badge&logo=autodesk" alt="Maya"/></a>
+  <img src="https://img.shields.io/badge/-Substance Painter-000056?style=for-the-badge&logo=adobe" alt="After Effects"/></a>
+  <img src="https://img.shields.io/badge/-Nuke-af7a2c?style=for-the-badge&logo=nuke" alt="Nuke"/></a>
+  <img src="https://img.shields.io/badge/-After Effects-000056?style=for-the-badge&logo=adobeaftereffects" alt="After Effects"/></a> -->
   <img src="https://img.shields.io/badge/-Windows-00A4EF?style=for-the-badge&logo=windows" alt="Compatible with Windows"/></a>
 </p>
 
