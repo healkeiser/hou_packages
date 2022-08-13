@@ -4,17 +4,13 @@
             "HTOA_VERSION": "htoa-6.1.3.1"
         },
         {
-            "HTOA_PY_VERSION": "3"
-        },
-        {
             "HTOA_CODE": "r90d42a5"
         },
         {
-            "PATH": "C:/Users/$USERNAME/htoa/$HTOA_VERSION_$HTOA_CODE_houdini-$HOUDINI_VERSION.py$HTOA_PY_VERSION/$HTOA_VERSION_$HTOA_CODE_houdini-$HOUDINI_VERSION.py$HTOA_PY_VERSION/scripts/bin",
-            "method": "append"
+            "HTOA_STARTUP_LOG": 1
         },
         {
-            "HTOA_STARTUP_LOG": 1
+            "PATH": "C:/Users/$USERNAME/htoa/${HTOA_VERSION}_${HTOA_CODE}_houdini-${HOUDINI_VERSION}/${HTOA_VERSION}_${HTOA_CODE}_houdini-${HOUDINI_VERSION}/scripts/bin"
         },
         {
             "ARNOLD_PLUGIN_PATH": [
@@ -26,6 +22,6 @@
         }
     ],
     "path": [
-        "C:/Users/$USERNAME/htoa/$HTOA_VERSION_$HTOA_CODE_houdini-$HOUDINI_VERSION.py$HTOA_PY_VERSION/$HTOA_VERSION_$HTOA_CODE_houdini-$HOUDINI_VERSION.py$HTOA_PY_VERSION"
+        "C:/Users/$USERNAME/htoa/${HTOA_VERSION}_${HTOA_CODE}_houdini-${HOUDINI_VERSION}/${HTOA_VERSION}_${HTOA_CODE}_houdini-${HOUDINI_VERSION}"
     ]
 }

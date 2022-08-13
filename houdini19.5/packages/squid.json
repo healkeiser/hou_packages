@@ -1,0 +1,61 @@
+{
+    "env": [
+        {
+            "PLUGINS_ROOT": [
+                {
+                    "houdini_os == 'windows'": "$PIPELINE_ROOT/.config/pipeline/houdini/plugins"
+                },
+                {
+                    "houdini_os == 'linux'": "$PIPELINE_ROOT/.config/pipeline/houdini/plugins"
+                },
+                {
+                    "houdini_os == 'macos'": "$PIPELINE_ROOT/.config/pipeline/houdini/plugins"
+                }
+            ]
+        },
+        {
+            "SQUID_ROOT": [
+                {
+                    "houdini_os == 'windows'": "$PIPELINE_ROOT/.config/pipeline/squid"
+                },
+                {
+                    "houdini_os != 'linux'": "$PIPELINE_ROOT/.config/pipeline/squid"
+                },
+                {
+                    "houdini_os == 'macos'": "$PIPELINE_ROOT/.config/pipeline/squid"
+                }
+            ]
+        },
+        {
+            "SQUID_HO_VERSION": "v0.0.1-alpha"
+        },
+        {
+            "SQUID_HO": "$SQUID_ROOT/squid_ho"
+        },
+        {
+            "SQUID_NU": "$SQUID_ROOT/squid_nu"
+        },
+        {
+            "PYTHONPATH": [
+                "$SQUID_HO/python",
+                {
+                    "method": "append"
+                }
+            ]
+        },
+        {
+            "HOUDINI_SPLASH_FILE": "$SQUID_HO/config/Splash/splash_01.png"
+        },
+        {
+            "HOUDINI_SPLASH_MESSAGE": "Houdini $HOUDINI_VERSION //nSquid $SQUID_HO_VERSION - $SQUID_HO"
+        },
+        {
+            "HOUDINI_EXTERNAL_HELP_BROWSER": 1
+        }
+    ],
+    "path": [
+        "$SQUID_ROOT",
+        "$SQUID_HO",
+        "$SQUID_NU"
+    ]
+}
