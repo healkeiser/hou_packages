@@ -28,7 +28,7 @@
 Collection of Houdini packages.
 > Use in in conjunction with [Google Drive VFX Server](https://github.com/healkeiser/google_drive_vfx_server)
 
-The typical `package.json` file will be as follow:
+The typical `package_name.json` file will be as follow:
 ```
 {
   "env": [
