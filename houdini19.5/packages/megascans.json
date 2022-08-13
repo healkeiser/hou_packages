@@ -1,0 +1,10 @@
+{
+  "env": [
+    {
+      "MEGASCANS": "$PIPELINE_ROOT/.config/pipeline/megascans/houdini"
+    }
+  ],
+  "path": [
+    "$MEGASCANS"
+  ]
+}
