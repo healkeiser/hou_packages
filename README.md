@@ -1,6 +1,7 @@
 <p align="left">
   <a href="https://www.python.org">
-  <img src="https://img.shields.io/badge/-Houdini-211d1e?style=for-the-badge&logo=houdini" alt="Python"/></a> 
+  <img src="https://img.shields.io/badge/-Houdini-211d1e?style=for-the-badge&logo=houdini" alt="Python"/></a>
+  <img src="https://img.shields.io/badge/-Windows-00A4EF?style=for-the-badge&logo=windows" alt="Compatible with Windows"/></a>
 </p>
 
 <div id="top"></div>
