@@ -1,0 +1,29 @@
+{
+    "env": [
+        {
+            "RENDERMAN_VERSION": "24.3"
+        },
+        {
+            "RENDERMAN_PY_VERSION": "3"
+        },
+        {
+            "RMANTREE": "C:/Program Files/Pixar/RenderManProServer-$RENDERMAN_VERSION"
+        },
+        {
+            "RFHTREE": "C:/Program Files/Pixar/RenderManForHoudini-$RENDERMAN_VERSION-$RENDERMAN_PY_VERSION/"
+        },
+        {
+            "RMAN_PROCEDURALPATH": {
+                "value": "$RFHTREE/$HOUDINI_VERSION/openvdb",
+                "method": "prepend"
+            }
+        },
+        {
+            "PATH": {
+                "value": "$RMANTREE/bin",
+                "method": "prepend"
+            }
+        }
+    ],
+    "path": "$RFHTREE/$HOUDINI_VERSION"
+}

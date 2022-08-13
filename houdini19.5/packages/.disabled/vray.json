@@ -1,0 +1,38 @@
+{
+	"env": [
+		{
+			"V_RAY_ROOT": "C:/Program Files/Chaos Group/V-Ray/Houdini $HOUDINI_VERSION"
+		},
+		{
+			"VRAY_APPSDK": "$V_RAY_ROOT/appsdk"
+		},
+		{
+			"VRAY_OSL_PATH": "$V_RAY_ROOT/appsdk/bin"
+		},
+		{
+			"VRAY_UI_DS_PATH": "$V_RAY_ROOT/ui"
+		},
+		{
+			"VFH_HOME": "$V_RAY_ROOT/vfh_home"
+		},
+		{
+			"PYTHONPATH": "$V_RAY_ROOT/appsdk/python37"
+		},
+		{
+			"PATH": [
+				"$HFS/bin;$VRAY_APPSDK/bin",
+				"$VFH_HOME/bin"
+			],
+			"method": "append"
+		},
+		{
+			"HOUDINI13_VOLUME_COMPATIBILITY": 1
+		},
+		{
+			"HDF5_DISABLE_VERSION_CHECK": 1
+		}
+	],
+	"path": [
+		"$VFH_HOME"
+	]
+}

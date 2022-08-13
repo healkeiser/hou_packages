@@ -1,0 +1,11 @@
+{
+    "env": [
+        {
+            "PATH": "C:/Users/$USERNAME/Documents/houdini19.5/plugins/octane/bin",
+            "method": "append"
+        }
+    ],
+    "path": [
+        "C:/Users/$USERNAME/Documents/houdini19.5/plugins/octane"
+    ]
+}

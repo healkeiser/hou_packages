@@ -1,0 +1,10 @@
+{
+    "env": [
+        {
+            "3DELIGHT": "C:/Program Files/3Delight"
+        }
+    ],
+    "path": [
+        "$3DELIGHT/houdini/19.0"
+    ]
+}
