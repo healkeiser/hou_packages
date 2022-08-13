@@ -28,6 +28,20 @@
 Collection of Houdini packages.
 > Use in in conjunction with [Google Drive VFX Server](https://github.com/healkeiser/google_drive_vfx_server)
 
+The typical `package_name.json` file will be as follow:
+```
+{
+  "env": [
+    {
+      "PACKAGE_NAME": "$PIPELINE_ROOT/.config/pipeline/houdini/plugins/package_name
+    }
+  ],
+  "path": [
+    "$PACKAGE_NAME"
+  ]
+}
+```
+
 
 
 <!-- CONTACT -->
